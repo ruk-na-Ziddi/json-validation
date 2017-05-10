@@ -1,0 +1,14 @@
+{
+  "name": "json-validation",
+  "version": "1.0.0",
+  "description": "this is to spike out some available node libraries for json schema validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node using-ajv/src/ajv-validation.js"
+  },
+  "author": "kroger-cmsblr@thoughtworks.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^5.0.1"
+  }
+}
